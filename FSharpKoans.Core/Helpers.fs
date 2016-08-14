@@ -4,6 +4,7 @@ module FSharpKoans.Core.Helpers
 open System
 open NUnit.Framework
 
+    // `__` is a valid function name
 let __ = "FILL ME IN"
 
 type FILL_ME_IN =
