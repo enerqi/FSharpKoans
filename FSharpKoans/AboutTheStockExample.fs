@@ -62,8 +62,8 @@ module ``about the stock example`` =
         let extractMarketData singleDayMarketDataString = 
             singleDayMarketDataString |> (fun (s:string) -> s.Split([|','|]))
 
-        let day (singleDaymarketData:string[]) =
-            singleDaymarketData.[0]
+        let day (singleDayMarketData:string[]) =
+            singleDayMarketData.[0]
 
         let openPrice (singleDayMarketData:string[]) = 
             System.Double.Parse(singleDayMarketData.[1])
